@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Room</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/signalr/jquery.signalR-3.0.0.min.js"></script>
+    <!-- Sørg for at tilpasse stien til din genererede SignalR hub script -->
+    <script src="/signalr/hubs"></script>
+    <script src="./chat.js"></script> <!-- Din brugerdefinerede JavaScript-fil -->
+</head>
+<body>
+    <div>
+        <input type="text" id="userInput" placeholder="Enter your name..." />
+        <input type="text" id="messageInput" placeholder="Enter a message..." />
+        <button id="sendButton">Send</button>
+    </div>
+    <div id="messagesList"></div>
+</body>
+</html>

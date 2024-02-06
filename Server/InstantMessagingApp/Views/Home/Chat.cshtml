@@ -1,0 +1,16 @@
+﻿@*Views/Home/Chat.cshtml*@
+@{
+    ViewData["Title"] = "Chat";
+}
+
+<h2>Chat Room</h2>
+<div>
+    <input type="text" id="userInput" placeholder="Enter your name..." />
+    <input type="text" id="messageInput" placeholder="Enter a message..." />
+    <button id="sendButton">Send</button>
+</div>
+<div id="messagesList"></div>
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.11/signalr.min.js"></script>
+    <script src="~/js/chat.js"></script>
+}
