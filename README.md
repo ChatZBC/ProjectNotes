@@ -42,7 +42,7 @@ We use a Razor page to facilitate the chatting over the SignalR connection.
 
 # Step 1
 
-We implement the chat functionality in Angular
+We implement the chat UI functionality in Angular
 
 ## Step 1 - Technology Stack
 
