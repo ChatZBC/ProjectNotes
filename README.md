@@ -1,4 +1,5 @@
-![Discord](https://img.shields.io/discord/1118896540640100352?style=for-the-badge&label=%E2%AD%90%20ZBC's%20Finest%20%E2%AD%90&color=FFA500)
+![Discord](https://img.shields.io/discord/1118896540640100352?style=for-the-badge&label=%E2%AD%90%20ZBC's%20Finest%20%E2%AD%90&color=FFA500&link=https%3A%2F%2Fdiscord.gg%2FBJ9Swh7HrG)
+
 
 
 # Instant Messaging App
