@@ -21,8 +21,18 @@ The multi-step plan is as follows:
 | 2    | Entity Framework, T-SQL                  | Angular         | Enable database support, to save messages, etc. And see if we can make multiple chat rooms   |     🔵      |
 | 3    | Direct Message                           | Angular         | Enable 1-1 confidential chats. Ensure nothing is logged or output to server console          |     🔵      |
 
+## Principles
+We strive to maintain a set of principles... which we've yet to decide upon 🤔
+It could be:
+* SOLID
+* Parts of SOLID like
+  * Single Responsibility  - Pretty relevant in order to do proper unit testing
+  * Open/Close
+  * Lisskov
+  * Interface Segregation
+  * Dependency Inversion Principle (DIP)
 
-# Architecture
+## Architecture
 
 Intended to be a simple client/server architecture, with minimal fuzz.
 We mainly use SignalR and HTTP connections.
