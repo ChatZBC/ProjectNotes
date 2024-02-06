@@ -5,13 +5,19 @@
 
 Created as a part of Unit-Testing excersises in class.
 
-The multi-step plan is as follows:
-| Step | Server                  | Client   | 
-|------|-------------------------|----------|
-| 1    | ASP.Net Core MVC        | Angular  | 
-| 2    | Entity Framework, T-SQL |          | 
-| 3    | Direct Message          |          |
+## Team Members
+* Drag-NDrop
+* MachineMenace
+* GoosLife
 
+
+# The plan
+The multi-step plan is as follows:
+| Step | Server                  | Client   |  Main changes                                                                               | 
+|------|-------------------------|----------|-------------------------------------------------------------------------------------------- |
+| 1    | ASP.Net Core MVC        | Angular  | Get a MVP up and running for group discussion and decision making                           |
+| 2    | Entity Framework, T-SQL |          | Enable database support, to save messages, etc. And see if we can make multiple chat rooms  |
+| 3    | Direct Message          |          | Enable 1-1 confidential chats. Ensure nothing is logged or output to server console         |
 
 
 # Architecture
@@ -23,6 +29,7 @@ We mainly use SignalR and HTTP connections.
 
 * ASP.NET Core MVC
 * SignalR
+
 
 ## Step 1 - Topology
 
@@ -72,6 +79,8 @@ graph TD
 * T-SQL
 * Entity Framework
 
+</details>
+
 ## Step 2 - Topology
 
 ```mermaid
@@ -92,6 +101,7 @@ graph TD
     class db database;
 
 ```
+
 
  
 # Plan for testing 
