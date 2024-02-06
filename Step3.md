@@ -20,7 +20,7 @@ graph TD
     server --- db[(Database)]
     httpEndpoints[HTTP Endpoints] --- server
 
-    subgraph "Technology Stack"
+    subgraph "Server/Technology Stack"
     direction TB
         hyperV[Microsoft Hyper-V] --- winServer(Windows Server 2022)
         winServer --- iis[Microsoft IIS]
