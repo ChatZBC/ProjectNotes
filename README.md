@@ -13,11 +13,12 @@ Created as a part of Unit-Testing excersises in class.
 
 # The plan
 The multi-step plan is as follows:
-| Step | Server                  | Client   |  Main changes                                                                               | 
-|------|-------------------------|----------|-------------------------------------------------------------------------------------------- |
-| 1    | ASP.Net Core MVC        | Angular  | Get a MVP up and running for group discussion and decision making                           |
-| 2    | Entity Framework, T-SQL |          | Enable database support, to save messages, etc. And see if we can make multiple chat rooms  |
-| 3    | Direct Message          |          | Enable 1-1 confidential chats. Ensure nothing is logged or output to server console         |
+| Step | Server                                   | Client          |  Main changes                                                                                |  Progress    | 
+|------|------------------------------------------|-----------------|----------------------------------------------------------------------------------------------|--------------|
+| 0.5  | Minimal Viable Product in MVC + SignalR  | cshtml View     | Demonstrate a working example of the SignalR protocol in chat-context                        |     ✅      |
+| 1    | ASP.Net Core MVC                         | Angular         | Get a MVP up and running for group discussion and decision making                            |     🔵      |
+| 2    | Entity Framework, T-SQL                  | Angular         | Enable database support, to save messages, etc. And see if we can make multiple chat rooms   |     🔵      |
+| 3    | Direct Message                           | Angular         | Enable 1-1 confidential chats. Ensure nothing is logged or output to server console          |     🔵      |
 
 
 # Architecture
@@ -25,11 +26,18 @@ The multi-step plan is as follows:
 Intended to be a simple client/server architecture, with minimal fuzz.
 We mainly use SignalR and HTTP connections.
 
+# Step 0.5 - The Minimal Viable Product
+We use a Razor page to facilitate the chatting over the SignalR connection.
+
+# Step 1
+
+We implement the chat functionality in Angular
+
 ## Step 1 - Technology Stack
 
 * ASP.NET Core MVC
 * SignalR
-
+* Angular(MS)
 
 ## Step 1 - Topology
 
