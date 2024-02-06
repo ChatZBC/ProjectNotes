@@ -1,6 +1,7 @@
 ## Step 3 - Technology Stack
 
 * ASP.NET Core MVC
+* Angular
 * SignalR
 * T-SQL
 * Entity Framework
