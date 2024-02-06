@@ -28,5 +28,5 @@ graph TD
 
 ```
 
-[Back to Step 1](README.md)
+[Back to Step 1](README.md)  
 [Link to Step 3](Step3.md)
