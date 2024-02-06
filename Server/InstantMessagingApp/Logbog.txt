@@ -1,8 +1,0 @@
-
-06-02-2024 - MSR 
-- Tilføjet SignalR NuGet pakke
-- Tilføjet SignalR Hubs/ChatHub
-- Tilføjet builder service: AddSignalR i Program.cs
-- Tilføjet MapHub: /chatHub i Program.cs
-- Tilføjet chat.js til wwwroot/js
-- Tilføjet chat.cshtml til Views/Home

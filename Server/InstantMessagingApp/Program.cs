@@ -9,7 +9,7 @@ namespace InstantMessagingApp
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            // Add SignalR
+            // Add SignalR service
             builder.Services.AddSignalR();
 
             var app = builder.Build();
@@ -33,7 +33,7 @@ namespace InstantMessagingApp
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
             
-            // Map SignalR Hub
+            // Map SignalR Hub to /chatHub
             app.MapHub<ChatHub>("/chatHub");
             
             app.Run();

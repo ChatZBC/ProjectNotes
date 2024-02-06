@@ -24,6 +24,7 @@ namespace InstantMessagingApp.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
+        // Offer the Chat view when the Chat action is called
         public IActionResult Chat()
         {
             return View();
