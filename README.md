@@ -103,7 +103,6 @@ graph TD
 | `CheckProfanity(str)` | Tests for profanity filtering.          | 
 | `CheckSecurity(str)`  | Tests the security measures.            | 
 | `LogMessage(str)`     | Tests message logging.                  | 
-| `OfferXLineState(x)`  | Tests the offering of line states.      | 
 
 
 ## Integration Tests
