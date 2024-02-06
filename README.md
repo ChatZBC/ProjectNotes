@@ -28,9 +28,9 @@ It could be:
 * Parts of SOLID like
   * Single Responsibility  - Pretty relevant in order to do proper unit testing
   * Open/Close
-  * Lisskov
+  * Liskov Substitution
   * Interface Segregation
-  * Dependency Inversion Principle (DIP)
+  * Dependency Inversion
 
 ## Architecture
 
