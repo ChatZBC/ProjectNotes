@@ -40,6 +40,8 @@ We mainly use SignalR and HTTP connections.
 ## Step 0.5 - The Minimal Viable Product
 We use a Razor page to facilitate the chatting over the SignalR connection.
 
+---
+
 # Step 1
 
 We implement the chat UI functionality in Angular
