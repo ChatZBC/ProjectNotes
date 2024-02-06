@@ -37,7 +37,7 @@ It could be:
 Intended to be a simple client/server architecture, with minimal fuzz.
 We mainly use SignalR and HTTP connections.
 
-# Step 0.5 - The Minimal Viable Product
+## Step 0.5 - The Minimal Viable Product
 We use a Razor page to facilitate the chatting over the SignalR connection.
 
 # Step 1
