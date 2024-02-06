@@ -102,5 +102,5 @@ graph TD
 
 # Suggestions for next steps:
 
-[Link to Step 2](Step2.md)
+[Link to Step 2](Step2.md)  
 [Link to Step 3](Step3.md)
