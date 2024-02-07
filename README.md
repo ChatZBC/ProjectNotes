@@ -13,26 +13,22 @@ Created as a part of Unit-Testing excersises in class.
 - [Table of contents](#table-of-contents)
   - [Team Members](#team-members)
   - [Sub-teams](#sub-teams)
-  - [Work Distribution](#work-distribution)
-- [The plan](#the-plan)
+- [Plan for testing](#plan-for-testing)
+- [The project plan](#the-project-plan)
   - [Approach](#approach)
     - [Principles](#principles)
   - [Architecture](#architecture)
 - [Step 1](#step-1)
   - [Step 1 - Technology Stack](#step-1---technology-stack)
   - [Step 1 - Topology](#step-1---topology)
-- [Plan for testing](#plan-for-testing)
   - [Backend](#backend)
-    - [Unit tests](#unit-tests)
-    - [Integration tests](#integration-tests)
-    - [Suggested..](#suggested)
-  - [Frontend: Angular/JS Unit tests](#frontend-angularjs-unit-tests)
-  - [Integration Tests](#integration-tests-1)
-  - [Usability Tests](#usability-tests)
+    - [Existing Unit tests - example](#existing-unit-tests---example)
+- [Ideas](#ideas)
+  - [Suggested tests for the teams](#suggested-tests-for-the-teams)
+  - [Constraints](#constraints)
+  - [Functionality ideas](#functionality-ideas)
 - [Inspiration](#inspiration)
 - [Suggestions for next steps:](#suggestions-for-next-steps)
-
-
 
 
 
@@ -60,14 +56,12 @@ Created as a part of Unit-Testing excersises in class.
 |6| Stakeholder                         | David                                                        |
 
 
-
-## Work Distribution
+# Plan for testing 
 
 ✅ : Done  
 🟡 : In Progress  
 🔵 : Planned, but not started  
 🔴 : Awaiting plan from team  
-
 
 | Step         | Team Name  | Status  | Area of Responsibility     | Test Definitions                                                                        |  Testing methodology        |
 |--------------|------------|---------|----------------------------|-----------------------------------------------------------------------------------------|-----------------------------|
@@ -84,21 +78,21 @@ Created as a part of Unit-Testing excersises in class.
 | Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR kan handle på det, når en bruger lukker forbindelsen                         |  Unit test                  |
 | Define Tests |   Team 5   |   🔵    | Integrations               | - Client can discover/ping the Backend-server and establish a successful connection    |  Integration tests          |
 | Define Tests |   Team 5   |   🔵    | Integrations               | - Server can correctly receive an incoming message and forward it to connected clients |  Integration tests          |
+| Define Tests |   Team 5   |   🟡    | Backend                    | - Ensure that SignalR functions properly, so FrontEnd team can debug their connection  |  Unit test                  |
+| Define Tests |   Team 5   |   🔵    | Integrations               | - displays appropriate error messages for failed message sending or retrieval          |  Integration tests          |
 | Define Tests |   Team 5   |   🔵    | Integrations               | - displays appropriate error messages for failed message sending or retrieval          |  Integration tests          |
 
 
 
 
-
-
-# The plan
+# The project plan
 The multi-step plan is as follows:
-| Step | Server                                   | Client          |  Main changes                                                                                |  Progress    | 
-|------|------------------------------------------|-----------------|----------------------------------------------------------------------------------------------|--------------|
-| 0.5  | Minimal Viable Product in MVC + SignalR  | cshtml View     | Demonstrate a working example of the SignalR protocol in chat-context                        |     ✅      |
-| 1    | ASP.Net Core MVC                         | Angular         | Get a MVP up and running for group discussion and decision making                            |     🔵      |
-| 2    | Entity Framework, T-SQL                  | Angular         | Enable database support, to save messages, etc. And see if we can make multiple chat rooms   |     🔵      |
-| 3    | Direct Message                           | Angular         | Enable 1-1 confidential chats. Ensure nothing is logged or output to server console          |     🔵      |
+| Step | Server                                   | Client          |  Main changes                                                                                |  Progress    |  Test-definitions in place |
+|------|------------------------------------------|-----------------|----------------------------------------------------------------------------------------------|--------------|----------------------------|
+| 0.5  | Minimal Viable Product in MVC + SignalR  | cshtml View     | Demonstrate a working example of the SignalR protocol in chat-context                        |     ✅      |            ✅              |
+| 1    | ASP.Net Core API                         | Angular         | Get a MVP up and running for group discussion and decision making                            |     🟡      |            🟡              |
+| 2    | Entity Framework, T-SQL                  | Angular         | Enable database support, to save messages, etc. And see if we can make multiple chat rooms   |     🔵      |            🔴              |
+| 3    | Direct Message                           | Angular         | Enable 1-1 confidential chats. Ensure nothing is logged or output to server console          |     🔵      |            🔴              |
 
 ## Approach
 
@@ -171,11 +165,11 @@ graph TD
 
 ```
 
-# Plan for testing 
+
 
 ## Backend
 
-### Unit tests
+### Existing Unit tests - example
 
 | Test Function         | Description                                                                              | 
 |-----------------------|------------------------------------------------------------------------------------------|
@@ -184,12 +178,10 @@ graph TD
 | `CheckSecurity(str)`  | Tests the security measures. Before the server relays messages to the clients            | 
 | `LogMessage(str)`     | Tests message logging. Before the server relays messages to the clients                  | 
 
+# Ideas
 
-### Integration tests
+## Suggested tests for the teams
 
-
-
-### Suggested..
 * Test at en SignalR Hub kan oprettes korrekt
   * Opret SignalR Hub
 * Test at en gruppe af hubs kan oprettes korrekt(f.eks. chatrooms)
@@ -200,25 +192,17 @@ graph TD
   * Log beskeder
 * Test en besked for profanity
   * Implementer profanity filter før serveren relayer beskeder
-| 
-| `HighlightOwnNameMsgs`| @-mention's support. Highlights messages containing the users own name |
+ 
+## Constraints
+Limit message sizes
+Send x messages in y time
 
+ ## Functionality ideas
 
-
-## Frontend: Angular/JS Unit tests
-
-| Test Function         | Description                                                            | 
-|-----------------------|------------------------------------------------------------------------|
-| `SendMessages(str)`   | Tests the sending of messages function.                                | 
-
-## Integration Tests
-
-
-## Usability Tests
-
-
-
-
+| Test Function         | Description                                                                              | 
+|-----------------------|------------------------------------------------------------------------------------------|
+| `HighlightOwnNameMsgs`| @-mention's support. Highlights messages containing the users own name                   |
+| `ChatCommands`        | `/kick, /vote, /motd` and more.. Provides ample opportunity to find more work for us     |
 
 # Inspiration
 https://www.codeproject.com/Articles/5162436/Simple-SignalR-Server-and-Client-Applications-Demo
