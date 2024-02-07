@@ -232,6 +232,7 @@ Send x messages in y time
 # Inspiration
 https://www.codeproject.com/Articles/5162436/Simple-SignalR-Server-and-Client-Applications-Demo
 
+https://code-maze.com/netcore-signalr-angular-realtime-charts/
 
 # Suggestions for next steps:
 
