@@ -82,7 +82,9 @@ Created as a part of Unit-Testing excersises in class.
 | Define Tests |   Team 5   |   🔵    | Integrations               | - Client can discover/ping the Backend-server and establish a successful connection    |  Integration tests          |
 | Define Tests |   Team 5   |   🔵    | Integrations               | - Server can correctly receive an incoming message and forward it to connected clients |  Integration tests          |
 | Define Tests |   Team 5   |   🟡    | Backend                    | - Ensure that SignalR functions properly, so FrontEnd team can debug their connection  |  Unit test                  |
-| Define Tests |   Team 5   |   🔵    | Integrations               | - displays appropriate error messages for failed message sending or retrieval          |  Integration tests          |
+| Define Tests |   Team 5   |   ✅    | Backend - SignalR          | - Ensure that bare minimum for SignalR is properly, loaded, along with dependencies    |  Unit test                  |
+| Define Tests |   Team 5   |   ✅    | Backend - Rules engine     | - Ensure that bare minimum for a rules engine is properly defined(message-hook draft)  |  Unit test                  |
+| Define Tests |   Team 5   |   🔵    | Integrations               | - Server can correctly receive an incoming message and forward it to connected clients |  Integration tests          |
 | Define Tests |   Team 5   |   🔵    | Integrations               | - displays appropriate error messages for failed message sending or retrieval          |  Integration tests          |
 
 
