@@ -10,6 +10,12 @@ Created as a part of Unit-Testing excersises in class.
 * Drag-NDrop
 * MachineMenace
 * GoosLife
+* Reapz
+* Daniel
+* Elexthito
+* Simon
+* Tue
+* Daniel
 
 
 # The plan
