@@ -6,3 +6,9 @@
 - Tilføjet chat.js til wwwroot/js
 - Tilføjet chat.cshtml til Views/Home
 - Skrevet en start på noget dokumentation der måske kan bruges i Github.
+
+
+07-02-2024 - MSR
+- Fået holdt et møde med gruppens nye medlemmer
+- Fået fordelt noget ansvar
+- Bedt om at hvert team der sidder med hvert sit ansvar, indleverer 3 tests de vil lave på deres problem område
