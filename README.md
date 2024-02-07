@@ -99,15 +99,21 @@ graph TD
 
 # Plan for testing 
 
-## Unit tests
+## Backend: MVC Unit tests
+
+| Test Function         | Description                                                                              | 
+|-----------------------|------------------------------------------------------------------------------------------|
+| `SendMessages(str)`   | Tests the sending of messages function. From the server to the clients, via. SignalR     | 
+| `CheckProfanity(str)` | Tests for profanity filtering. Before the server relays messages to the clients          | 
+| `CheckSecurity(str)`  | Tests the security measures. Before the server relays messages to the clients            | 
+| `LogMessage(str)`     | Tests message logging. Before the server relays messages to the clients                  | 
+
+
+## Frontend: Angular/JS Unit tests
 
 | Test Function         | Description                             | 
 |-----------------------|-----------------------------------------|
 | `SendMessages(str)`   | Tests the sending of messages function. | 
-| `CheckProfanity(str)` | Tests for profanity filtering.          | 
-| `CheckSecurity(str)`  | Tests the security measures.            | 
-| `LogMessage(str)`     | Tests message logging.                  | 
-
 
 ## Integration Tests
 
