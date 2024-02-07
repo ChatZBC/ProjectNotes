@@ -109,6 +109,21 @@ graph TD
 | `LogMessage(str)`     | Tests message logging. Before the server relays messages to the clients                  | 
 
 
+### Suggested..
+* Test at en SignalR Hub kan oprettes korrekt
+  * Opret SignalR Hub
+* Test at en gruppe af hubs kan oprettes korrekt(f.eks. chatrooms)
+  * Opret en gruppe af hubs
+* Test at en hub kan tage imod beskeder
+  * Send beskeder til en hub
+* Test at beskeder bliver logget
+  * Log beskeder
+* Test en besked for profanity
+  * Implementer profanity filter før serveren relayer beskeder
+
+
+
+
 ## Frontend: Angular/JS Unit tests
 
 | Test Function         | Description                             | 
