@@ -16,6 +16,7 @@ Created as a part of Unit-Testing excersises in class.
 * Simon
 * Tue
 * Daniel
+* Quan
 
 
 # The plan
