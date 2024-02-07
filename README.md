@@ -64,7 +64,7 @@ Created as a part of Unit-Testing excersises in class.
 🔴 : Awaiting plan from team  
 
 | Step         | Team Name  | Status  | Area of Responsibility     | Test Definitions                                                                        |  Testing methodology        |
-|--------------|------------|---------|----------------------------|-----------------------------------------------------------------------------------------|-----------------------------|
+|--------------|------------|:-------:|----------------------------|-----------------------------------------------------------------------------------------|-----------------------------|
 | Define Tests |   Team 1   |   🔵    | Front-end                  | - Username is correctly stored in a variable, so it can be passed as a header          |  Unit test                  |
 | Define Tests |   Team 1   |   🔵    | Front-end                  | - Frontend can connect to SignalR hub                                                  |  Unit test                  |
 | Define Tests |   Team 1   |   🔵    | Front-end                  | - Frontend can send data to SignalR hub                                                |  Unit test                  |
@@ -73,9 +73,9 @@ Created as a part of Unit-Testing excersises in class.
 | Define Tests |   Team 2   |   🔵    | Back-end Security          | - Make sure clients can only send x messages in y time                                 |  Unit test                  |
 | Define Tests |   Team 2   |   🔵    | Back-end Security          | - (later, if we get database on) santitize inputs for sql injections                   |  Unit test                  |
 | Define Tests |   Team 3   |   🔴    | Back-end Profanity-filter  | - Awesome tests here..                                                                 |  Unit test                  |
-| Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR kan få liste over bruger der er tilsluttet hubben                            |  Unit test                  |
-| Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR kan få et username igennem headeren når der connectes                        |  Unit test                  |
-| Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR kan handle på det, når en bruger lukker forbindelsen                         |  Unit test                  |
+| Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR get a list of users connected to the hub                                     |  Unit test                  |
+| Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR can get a username via the header, upon succesful connection                 |  Unit test                  |
+| Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR update internal variables when it detects a client disconnect                |  Unit test                  |
 | Define Tests |   Team 5   |   🔵    | Integrations               | - Client can discover/ping the Backend-server and establish a successful connection    |  Integration tests          |
 | Define Tests |   Team 5   |   🔵    | Integrations               | - Server can correctly receive an incoming message and forward it to connected clients |  Integration tests          |
 | Define Tests |   Team 5   |   🟡    | Backend                    | - Ensure that SignalR functions properly, so FrontEnd team can debug their connection  |  Unit test                  |
@@ -87,12 +87,15 @@ Created as a part of Unit-Testing excersises in class.
 
 # The project plan
 The multi-step plan is as follows:
+
 | Step | Server                                   | Client          |  Main changes                                                                                |  Progress    |  Test-definitions in place |
-|------|------------------------------------------|-----------------|----------------------------------------------------------------------------------------------|--------------|----------------------------|
-| 0.5  | Minimal Viable Product in MVC + SignalR  | cshtml View     | Demonstrate a working example of the SignalR protocol in chat-context                        |     ✅      |            ✅              |
-| 1    | ASP.Net Core API                         | Angular         | Get a MVP up and running for group discussion and decision making                            |     🟡      |            🟡              |
-| 2    | Entity Framework, T-SQL                  | Angular         | Enable database support, to save messages, etc. And see if we can make multiple chat rooms   |     🔵      |            🔴              |
-| 3    | Direct Message                           | Angular         | Enable 1-1 confidential chats. Ensure nothing is logged or output to server console          |     🔵      |            🔴              |
+|:----:|------------------------------------------|:---------------:|----------------------------------------------------------------------------------------------|:------------:|:--------------------------:|
+| 0.5  | Minimal Viable Product in MVC + SignalR  | cshtml View     | Demonstrate a working example of the SignalR protocol in chat-context                        | ✅          |             ✅             |
+| 1    | ASP.Net Core API                         | Angular         | Get a MVP up and running for group discussion and decision making                            | 🟡          |             🟡             |
+| 2    | Entity Framework, T-SQL                  | Angular         | Enable database support, to save messages, etc. And see if we can make multiple chat rooms   | 🔵          |             🔴             |
+| 3    | Direct Message                           | Angular         | Enable 1-1 confidential chats. Ensure nothing is logged or output to server console          | 🔵          |             🔴             |
+
+
 
 ## Approach
 
