@@ -12,3 +12,5 @@
 - Fået holdt et møde med gruppens nye medlemmer
 - Fået fordelt noget ansvar
 - Bedt om at hvert team der sidder med hvert sit ansvar, indleverer 3 tests de vil lave på deres problem område
+- Anmodet Git-Master om at få oprettet et repository til projekt noter, så læreren kan følge med.
+- Gået igang med at sammenfatte hvem der laver hvad, og hvilket fokus de har på testing, på hver deres område.

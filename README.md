@@ -6,6 +6,36 @@
 
 Created as a part of Unit-Testing excersises in class.
 
+
+# Table of contents
+
+- [Instant Messaging App](#instant-messaging-app)
+- [Table of contents](#table-of-contents)
+  - [Team Members](#team-members)
+  - [Sub-teams](#sub-teams)
+  - [Work Distribution](#work-distribution)
+- [The plan](#the-plan)
+  - [Approach](#approach)
+    - [Principles](#principles)
+  - [Architecture](#architecture)
+- [Step 1](#step-1)
+  - [Step 1 - Technology Stack](#step-1---technology-stack)
+  - [Step 1 - Topology](#step-1---topology)
+- [Plan for testing](#plan-for-testing)
+  - [Backend](#backend)
+    - [Unit tests](#unit-tests)
+    - [Integration tests](#integration-tests)
+    - [Suggested..](#suggested)
+  - [Frontend: Angular/JS Unit tests](#frontend-angularjs-unit-tests)
+  - [Integration Tests](#integration-tests-1)
+  - [Usability Tests](#usability-tests)
+- [Inspiration](#inspiration)
+- [Suggestions for next steps:](#suggestions-for-next-steps)
+
+
+
+
+
 ## Team Members
 * Drag-NDrop
 * MachineMenace
@@ -17,6 +47,48 @@ Created as a part of Unit-Testing excersises in class.
 * PandaOnCaffeine
 * Daniel
 * Quan
+
+## Sub-teams
+
+|#| Problem area                        | Members                                                      |
+|-|-------------------------------------|--------------------------------------------------------------|
+|1| FrontEnd - UI                       | Tue, Simon                                                   |
+|2| BackEnd - Security features         | Andreas, Frederik                                            |
+|3| BackEnd - Profanity-filter features | Anders, Martinus                                             |
+|4| BackEnd - SignalR info              | William                                                      |
+|5| Integrations                        | Daniel, Martin                                               |
+|6| Stakeholder                         | David                                                        |
+
+
+
+## Work Distribution
+
+✅ : Done  
+🟡 : In Progress  
+🔵 : Planned, but not started  
+🔴 : Awaiting plan from team  
+
+
+| Step         | Team Name  | Status  | Area of Responsibility     | Test Definitions                                                                        |  Testing methodology        |
+|--------------|------------|---------|----------------------------|-----------------------------------------------------------------------------------------|-----------------------------|
+| Define Tests |   Team 1   |   🔵    | Front-end                  | - Username is correctly stored in a variable, so it can be passed as a header          |  Unit test                  |
+| Define Tests |   Team 1   |   🔵    | Front-end                  | - Frontend can connect to SignalR hub                                                  |  Unit test                  |
+| Define Tests |   Team 1   |   🔵    | Front-end                  | - Frontend can send data to SignalR hub                                                |  Unit test                  |
+| Define Tests |   Team 1   |   🔵    | Front-end                  | - Frontend kan modtage data fra SignalR hub                                            |  Unit test                  |
+| Define Tests |   Team 2   |   🔵    | Back-end Security          | - Sanitize inputs / outputs for > and < (HTML)tags                                     |  Unit test                  |
+| Define Tests |   Team 2   |   🔵    | Back-end Security          | - Make sure clients can only send x messages in y time                                 |  Unit test                  |
+| Define Tests |   Team 2   |   🔵    | Back-end Security          | - (later, if we get database on) santitize inputs for sql injections                   |  Unit test                  |
+| Define Tests |   Team 3   |   🔴    | Back-end Profanity-filter  | - Awesome tests here..                                                                 |  Unit test                  |
+| Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR kan få liste over bruger der er tilsluttet hubben                            |  Unit test                  |
+| Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR kan få et username igennem headeren når der connectes                        |  Unit test                  |
+| Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR kan handle på det, når en bruger lukker forbindelsen                         |  Unit test                  |
+| Define Tests |   Team 5   |   🔵    | Integrations               | - Client can discover/ping the Backend-server and establish a successful connection    |  Integration tests          |
+| Define Tests |   Team 5   |   🔵    | Integrations               | - Server can correctly receive an incoming message and forward it to connected clients |  Integration tests          |
+| Define Tests |   Team 5   |   🔵    | Integrations               | - displays appropriate error messages for failed message sending or retrieval          |  Integration tests          |
+
+
+
+
 
 
 # The plan
@@ -101,7 +173,9 @@ graph TD
 
 # Plan for testing 
 
-## Backend: MVC Unit tests
+## Backend
+
+### Unit tests
 
 | Test Function         | Description                                                                              | 
 |-----------------------|------------------------------------------------------------------------------------------|
@@ -109,6 +183,10 @@ graph TD
 | `CheckProfanity(str)` | Tests for profanity filtering. Before the server relays messages to the clients          | 
 | `CheckSecurity(str)`  | Tests the security measures. Before the server relays messages to the clients            | 
 | `LogMessage(str)`     | Tests message logging. Before the server relays messages to the clients                  | 
+
+
+### Integration tests
+
 
 
 ### Suggested..
@@ -137,6 +215,7 @@ graph TD
 
 
 ## Usability Tests
+
 
 
 
