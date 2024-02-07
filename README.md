@@ -126,15 +126,16 @@ graph TD
   * Log beskeder
 * Test en besked for profanity
   * Implementer profanity filter før serveren relayer beskeder
-
+| 
+| `HighlightOwnNameMsgs`| @-mention's support. Highlights messages containing the users own name |
 
 
 
 ## Frontend: Angular/JS Unit tests
 
-| Test Function         | Description                             | 
-|-----------------------|-----------------------------------------|
-| `SendMessages(str)`   | Tests the sending of messages function. | 
+| Test Function         | Description                                                            | 
+|-----------------------|------------------------------------------------------------------------|
+| `SendMessages(str)`   | Tests the sending of messages function.                                | 
 
 ## Integration Tests
 
