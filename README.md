@@ -122,6 +122,11 @@ graph TD
 
 
 
+
+# Inspiration
+https://www.codeproject.com/Articles/5162436/Simple-SignalR-Server-and-Client-Applications-Demo
+
+
 # Suggestions for next steps:
 
 [Link to Step 2](Step2.md)  
