@@ -88,13 +88,19 @@ Created as a part of Unit-Testing excersises in class.
 
 ## Testing progress
 
-| Step         |   Team     | Status  | Area of Responsibility     | Test Definitions                                                                        |  Testing methodology        | Test-function name        |
-|--------------|------------|:-------:|----------------------------|-----------------------------------------------------------------------------------------|-----------------------------|---------------------------|
-| Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs   | - Test proper building of Program.cs: Adding SignalR service                            |  Unit test                  | ShouldAddSignalRService() |
-| Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs   | - Test proper building of Program.cs: Ensure there's no problem adding Endpoints        |  Unit test                  | ShouldUseEndpoints()      |
-| Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs   | - Test proper building of Program.cs: Ensure there's no problem setting CORS            |  Unit test                  | ShouldUseCors()           |
-| Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs   | - Test proper building of Program.cs: Ensure there's no problem mapping the SignalR Hub |  Unit test                  | ShouldMapChatHub()        |
-| Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs   | - Test proper building of Program.cs: Ensure there's no problem mapping controllers     |  Unit test                  | ShouldMapControllers()    |
+| Step         |   Team     | Status  | Area of Responsibility          | Test Definitions                                                                        |  Testing methodology        | Test-function name        |
+|--------------|------------|:-------:|---------------------------------|-----------------------------------------------------------------------------------------|-----------------------------|---------------------------|
+| Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs        | - Test proper building of Program.cs: Adding SignalR service                            |  Unit test(Fact)            | ShouldAddSignalRService() |
+| Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs        | - Test proper building of Program.cs: Ensure there's no problem adding Endpoints        |  Unit test(Fact)            | ShouldUseEndpoints()      |
+| Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs        | - Test proper building of Program.cs: Ensure there's no problem setting CORS            |  Unit test(Fact)            | ShouldUseCors()           |
+| Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs        | - Test proper building of Program.cs: Ensure there's no problem mapping the SignalR Hub |  Unit test(Fact)            | ShouldMapChatHub()        |
+| Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs        | - Test proper building of Program.cs: Ensure there's no problem mapping controllers     |  Unit test(Fact)            | ShouldMapControllers()    |
+| Write Tests  |   Team 5   |   ✅    | Back-end ChatHubTests.cs        | - Test proper rulechecking on messages: Ensure there's no problem logging messages      |  Unit test(Moq assertion)   | ShouldCheckMessage()      |
+| Write Tests  |   Team 5   |   ✅    | Back-end MessageCheckerTests.cs | - Test proper rulechecking on messages: Check outcome in case of profanity              |  Unit test(Theory)          | ShouldCheckMessage()      |
+| Write Tests  |   Team 5   |   ✅    | Back-end MessageCheckerTests.cs | - Test proper rulechecking on messages: Check outcome in case of confanity?             |  Unit test(Theory)          | ShouldCheckMessage()      |
+| Write Tests  |   Team 5   |   ✅    | Back-end MessageCheckerTests.cs | - Test proper rulechecking on messages: Check outcome in case of security issues        |  Unit test(Theory)          | ShouldCheckMessage()      |
+| Write Tests  |   Team 5   |   ✅    | Back-end MessageCheckerTests.cs | - Test proper rulechecking on messages: Check outcome in case of chat command           |  Unit test(Theory)          | ShouldCheckMessage()      |
+| Write Tests  |   Team 5   |   ✅    | Back-end MessageCheckerTests.cs | - Test proper rulechecking on messages: Check outcome in case of a valid message        |  Unit test(Theory)          | ShouldCheckMessage()      |
 
 
 
