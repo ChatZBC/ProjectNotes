@@ -14,7 +14,7 @@ Created as a part of Unit-Testing excersises in class.
 * Daniel
 * Elexthito
 * Simon
-* Tue
+* PandaOnCaffeine
 * Daniel
 * Quan
 
