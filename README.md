@@ -14,6 +14,7 @@ Created as a part of Unit-Testing excersises in class.
   - [Team Members](#team-members)
   - [Sub-teams](#sub-teams)
 - [Plan for testing](#plan-for-testing)
+  - [Testing progress](#testing-progress)
 - [The project plan](#the-project-plan)
   - [Approach](#approach)
     - [Principles](#principles)
@@ -63,7 +64,7 @@ Created as a part of Unit-Testing excersises in class.
 🔵 : Planned, but not started  
 🔴 : Awaiting plan from team  
 
-| Step         | Team Name  | Status  | Area of Responsibility     | Test Definitions                                                                        |  Testing methodology        |
+| Step         |   Team     | Status  | Area of Responsibility     | Test Definitions                                                                        |  Testing methodology        |
 |--------------|------------|:-------:|----------------------------|-----------------------------------------------------------------------------------------|-----------------------------|
 | Define Tests |   Team 1   |   🔵    | Front-end                  | - Username is correctly stored in a variable, so it can be passed as a header          |  Unit test                  |
 | Define Tests |   Team 1   |   🔵    | Front-end                  | - Frontend can connect to SignalR hub                                                  |  Unit test                  |
@@ -83,6 +84,17 @@ Created as a part of Unit-Testing excersises in class.
 | Define Tests |   Team 5   |   🟡    | Backend                    | - Ensure that SignalR functions properly, so FrontEnd team can debug their connection  |  Unit test                  |
 | Define Tests |   Team 5   |   🔵    | Integrations               | - displays appropriate error messages for failed message sending or retrieval          |  Integration tests          |
 | Define Tests |   Team 5   |   🔵    | Integrations               | - displays appropriate error messages for failed message sending or retrieval          |  Integration tests          |
+
+
+## Testing progress
+
+| Step         |   Team     | Status  | Area of Responsibility     | Test Definitions                                                                        |  Testing methodology        | Test-function name        |
+|--------------|------------|:-------:|----------------------------|-----------------------------------------------------------------------------------------|-----------------------------|---------------------------|
+| Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs   | - Test proper building of Program.cs: Adding SignalR service                            |  Unit test                  | ShouldAddSignalRService() |
+| Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs   | - Test proper building of Program.cs: Ensure there's no problem adding Endpoints        |  Unit test                  | ShouldUseEndpoints()      |
+| Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs   | - Test proper building of Program.cs: Ensure there's no problem setting CORS            |  Unit test                  | ShouldUseCors()           |
+| Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs   | - Test proper building of Program.cs: Ensure there's no problem mapping the SignalR Hub |  Unit test                  | ShouldMapChatHub()        |
+| Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs   | - Test proper building of Program.cs: Ensure there's no problem mapping controllers     |  Unit test                  | ShouldMapControllers()    |
 
 
 
