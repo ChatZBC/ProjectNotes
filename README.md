@@ -21,7 +21,11 @@ The multi-step plan is as follows:
 | 2    | Entity Framework, T-SQL                  | Angular         | Enable database support, to save messages, etc. And see if we can make multiple chat rooms   |     🔵      |
 | 3    | Direct Message                           | Angular         | Enable 1-1 confidential chats. Ensure nothing is logged or output to server console          |     🔵      |
 
-## Principles
+## Approach
+
+Our main focus is Test-driven Development. And this project is mainly being written, in order to practise that.
+
+### Principles
 We strive to maintain a set of principles... which we've yet to decide upon 🤔
 It could be:
 * SOLID
