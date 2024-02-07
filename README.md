@@ -72,7 +72,9 @@ Created as a part of Unit-Testing excersises in class.
 | Define Tests |   Team 2   |   🔵    | Back-end Security          | - Sanitize inputs / outputs for > and < (HTML)tags                                     |  Unit test                  |
 | Define Tests |   Team 2   |   🔵    | Back-end Security          | - Make sure clients can only send x messages in y time                                 |  Unit test                  |
 | Define Tests |   Team 2   |   🔵    | Back-end Security          | - (later, if we get database on) santitize inputs for sql injections                   |  Unit test                  |
-| Define Tests |   Team 3   |   🔴    | Back-end Profanity-filter  | - Awesome tests here..                                                                 |  Unit test                  |
+| Define Tests |   Team 3   |   🔵    | Back-end Profanity-filter  | - Does the message contain any profanities                                             |  Unit test                  |
+| Define Tests |   Team 3   |   🔵    | Back-end Profanity-filter  | - Is the message clean                                                                 |  Unit test                  |
+| Define Tests |   Team 3   |   🔵    | Back-end Profanity-filter  | - Is the message empty                                                                 |  Unit test                  |
 | Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR get a list of users connected to the hub                                     |  Unit test                  |
 | Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR can get a username via the header, upon succesful connection                 |  Unit test                  |
 | Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR update internal variables when it detects a client disconnect                |  Unit test                  |
