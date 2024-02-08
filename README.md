@@ -73,15 +73,14 @@ Created as a part of Unit-Testing excersises in class.
 | Define Tests |   Team 2   |   🔵    | Back-end Security          | - Sanitize inputs / outputs for > and < (HTML)tags                                     |  Unit test                  |
 | Define Tests |   Team 2   |   🔵    | Back-end Security          | - Make sure clients can only send x messages in y time                                 |  Unit test                  |
 | Define Tests |   Team 2   |   🔵    | Back-end Security          | - (later, if we get database on) santitize inputs for sql injections                   |  Unit test                  |
-| Define Tests |   Team 3   |   🔵    | Back-end Profanity-filter  | - Does the message contain any profanities                                             |  Unit test                  |
+| Define Tests |   Team 3   |   🟡    | Back-end Profanity-filter  | - Does the message contain any profanities                                             |  Unit test                  |
 | Define Tests |   Team 3   |   🔵    | Back-end Profanity-filter  | - Is the message clean                                                                 |  Unit test                  |
 | Define Tests |   Team 3   |   🔵    | Back-end Profanity-filter  | - Is the message empty                                                                 |  Unit test                  |
-| Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR get a list of users connected to the hub                                     |  Unit test                  |
-| Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR can get a username via the header, upon succesful connection                 |  Unit test                  |
-| Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR update internal variables when it detects a client disconnect                |  Unit test                  |
-| Define Tests |   Team 5   |   🔵    | Integrations               | - Client can discover/ping the Backend-server and establish a successful connection    |  Integration tests          |
-| Define Tests |   Team 5   |   🔵    | Integrations               | - Server can correctly receive an incoming message and forward it to connected clients |  Integration tests          |
+| Define Tests |   Team 4   |   ✅    | Back-end SignalR Info      | - SignalR get a list of users connected to the hub                                     |  Unit test                  |
+| Define Tests |   Team 4   |   ✅    | Back-end SignalR Info      | - SignalR can get a username via the header, upon succesful connection                 |  Unit test                  |
+| Define Tests |   Team 4   |   ✅    | Back-end SignalR Info      | - SignalR update internal variables when it detects a client disconnect                |  Unit test                  |
 | Define Tests |   Team 4+5 |   ✅    | Backend                    | - Ensure that SignalR functions properly, so FrontEnd team can debug their connection  |  Unit test                  |
+| Define Tests |   Team 5   |   🔵    | Integrations               | - Client can discover/ping the Backend-server and establish a successful connection    |  Integration tests          |
 | Define Tests |   Team 5   |   ✅    | Backend - SignalR          | - Ensure that bare minimum for SignalR is properly, loaded, along with dependencies    |  Unit test                  |
 | Define Tests |   Team 5   |   ✅    | Backend - Rules engine     | - Ensure that bare minimum for a rules engine is properly defined(message-hook draft)  |  Unit test                  |
 | Define Tests |   Team 5   |   🔵    | Integrations               | - Server can correctly receive an incoming message and forward it to connected clients |  Integration tests          |
