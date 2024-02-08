@@ -4,7 +4,7 @@
 
 # Instant Messaging App
 
-Created as a part of Unit-Testing excersises in class.
+Created as a part of Unit-Testing and Test-Driven Development excersises in class.
 
 
 # Table of contents
