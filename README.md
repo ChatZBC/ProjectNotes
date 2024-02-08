@@ -102,6 +102,9 @@ Created as a part of Unit-Testing excersises in class.
 | Write Tests  |   Team 5   |   ✅    | Back-end MessageCheckerTests.cs | - Test proper rulechecking on messages: Check outcome in case of security issues        |  Unit test(Theory)          | ShouldCheckMessage()      |
 | Write Tests  |   Team 5   |   ✅    | Back-end MessageCheckerTests.cs | - Test proper rulechecking on messages: Check outcome in case of chat command           |  Unit test(Theory)          | ShouldCheckMessage()      |
 | Write Tests  |   Team 5   |   ✅    | Back-end MessageCheckerTests.cs | - Test proper rulechecking on messages: Check outcome in case of a valid message        |  Unit test(Theory)          | ShouldCheckMessage()      |
+| Write Tests  |   Team 4   |   ✅    | Back-end SignalR protokol       | - Info gets a list of users connected to the hub                                        |  Integration test           | RequestUserList()         |
+| Write Tests  |   Team 4   |   ✅    | Back-end SignalR protokol       | - Get a username via header                                                             |  Integration test           | OnConnection()            |
+| Write Tests  |   Team 4   |   ✅    | Back-end SignalR protokol       | - Info - Get a list of users connected to the hub                                       |  Integration test           | OnDisconnect()            |
 
 
 
