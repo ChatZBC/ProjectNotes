@@ -66,8 +66,8 @@ Created as a part of Unit-Testing excersises in class.
 
 | Step         |   Team     | Status  | Area of Responsibility     | Test Definitions                                                                        |  Testing methodology        |
 |--------------|------------|:-------:|----------------------------|-----------------------------------------------------------------------------------------|-----------------------------|
-| Define Tests |   Team 1   |   🔵    | Front-end                  | - Username is correctly stored in a variable, so it can be passed as a header          |  Unit test                  |
-| Define Tests |   Team 1   |   🔵    | Front-end                  | - Frontend can connect to SignalR hub                                                  |  Unit test                  |
+| Define Tests |   Team 1   |   🟡    | Front-end                  | - Username is correctly stored in a variable, so it can be passed as a header          |  Unit test                  |
+| Define Tests |   Team 1   |   ✅    | Front-end                  | - Frontend can connect to SignalR hub                                                  |  Unit test                  |
 | Define Tests |   Team 1   |   🔵    | Front-end                  | - Frontend can send data to SignalR hub                                                |  Unit test                  |
 | Define Tests |   Team 1   |   🔵    | Front-end                  | - Frontend kan modtage data fra SignalR hub                                            |  Unit test                  |
 | Define Tests |   Team 2   |   🔵    | Back-end Security          | - Sanitize inputs / outputs for > and < (HTML)tags                                     |  Unit test                  |
