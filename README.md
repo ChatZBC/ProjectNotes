@@ -81,7 +81,7 @@ Created as a part of Unit-Testing excersises in class.
 | Define Tests |   Team 4   |   🔵    | Back-end SignalR Info      | - SignalR update internal variables when it detects a client disconnect                |  Unit test                  |
 | Define Tests |   Team 5   |   🔵    | Integrations               | - Client can discover/ping the Backend-server and establish a successful connection    |  Integration tests          |
 | Define Tests |   Team 5   |   🔵    | Integrations               | - Server can correctly receive an incoming message and forward it to connected clients |  Integration tests          |
-| Define Tests |   Team 5   |   🟡    | Backend                    | - Ensure that SignalR functions properly, so FrontEnd team can debug their connection  |  Unit test                  |
+| Define Tests |   Team 4+5 |   ✅    | Backend                    | - Ensure that SignalR functions properly, so FrontEnd team can debug their connection  |  Unit test                  |
 | Define Tests |   Team 5   |   ✅    | Backend - SignalR          | - Ensure that bare minimum for SignalR is properly, loaded, along with dependencies    |  Unit test                  |
 | Define Tests |   Team 5   |   ✅    | Backend - Rules engine     | - Ensure that bare minimum for a rules engine is properly defined(message-hook draft)  |  Unit test                  |
 | Define Tests |   Team 5   |   🔵    | Integrations               | - Server can correctly receive an incoming message and forward it to connected clients |  Integration tests          |
@@ -97,7 +97,7 @@ Created as a part of Unit-Testing excersises in class.
 | Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs        | - Test proper building of Program.cs: Ensure there's no problem setting CORS            |  Unit test(Fact)            | ShouldUseCors()           |
 | Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs        | - Test proper building of Program.cs: Ensure there's no problem mapping the SignalR Hub |  Unit test(Fact)            | ShouldMapChatHub()        |
 | Write Tests  |   Team 5   |   ✅    | Back-end ProgramTests.cs        | - Test proper building of Program.cs: Ensure there's no problem mapping controllers     |  Unit test(Fact)            | ShouldMapControllers()    |
-| Write Tests  |   Team 5   |   ✅    | Back-end ChatHubTests.cs        | - Test proper rulechecking on messages: Ensure there's no problem logging messages      |  Unit test(Moq assertion)   | ShouldCheckMessage()      |
+| Write Tests  |   Team 5   |   ✅    | Back-end ChatHubTests.cs        | - Test proper rulechecking on messages: Ensure there's no problem logging messages      |  Unit test(Moq assertion)   | ShouldLogMessage()        |
 | Write Tests  |   Team 5   |   ✅    | Back-end MessageCheckerTests.cs | - Test proper rulechecking on messages: Check outcome in case of profanity              |  Unit test(Theory)          | ShouldCheckMessage()      |
 | Write Tests  |   Team 5   |   ✅    | Back-end MessageCheckerTests.cs | - Test proper rulechecking on messages: Check outcome in case of confanity?             |  Unit test(Theory)          | ShouldCheckMessage()      |
 | Write Tests  |   Team 5   |   ✅    | Back-end MessageCheckerTests.cs | - Test proper rulechecking on messages: Check outcome in case of security issues        |  Unit test(Theory)          | ShouldCheckMessage()      |
