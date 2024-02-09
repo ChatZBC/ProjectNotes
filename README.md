@@ -70,8 +70,8 @@ Created as a part of Unit-Testing and Test-Driven Development excersises in clas
 | Define Tests |   Team 1   |   ✅    | Front-end                  | - Frontend can connect to SignalR hub                                                  |  Unit test                  |
 | Define Tests |   Team 1   |   🟡    | Front-end                  | - Frontend can send data to SignalR hub                                                |  Unit test                  |
 | Define Tests |   Team 1   |   🔵    | Front-end                  | - Frontend kan modtage data fra SignalR hub                                            |  Unit test                  |
-| Define Tests |   Team 2   |   🔵    | Back-end Security          | - Sanitize inputs / outputs for > and < (HTML)tags                                     |  Unit test                  |
-| Define Tests |   Team 2   |   🔵    | Back-end Security          | - Make sure clients can only send x messages in y time                                 |  Unit test                  |
+| Define Tests |   Team 2   |   ✅    | Back-end Security          | - Sanitize inputs / outputs for > and < (HTML)tags                                     |  Unit test                  |
+| Define Tests |   Team 2   |   ✅    | Back-end Security          | - Make sure clients can only send x messages in y time                                 |  Unit test                  |
 | Define Tests |   Team 2   |   🔵    | Back-end Security          | - (later, if we get database on) santitize inputs for sql injections                   |  Unit test                  |
 | Define Tests |   Team 3   |   🟡    | Back-end Profanity-filter  | - Does the message contain any profanities                                             |  Unit test                  |
 | Define Tests |   Team 3   |   🔵    | Back-end Profanity-filter  | - Is the message clean                                                                 |  Unit test                  |
@@ -105,8 +105,8 @@ Created as a part of Unit-Testing and Test-Driven Development excersises in clas
 | Write Tests  |   Team 4   |   ✅    | Back-end SignalR protokol       | - Info gets a list of users connected to the hub                                        |  Integration test           | RequestUserList()         |
 | Write Tests  |   Team 4   |   ✅    | Back-end SignalR protokol       | - Get a username via header                                                             |  Integration test           | OnConnection()            |
 | Write Tests  |   Team 4   |   ✅    | Back-end SignalR protokol       | - Info - Get a list of users connected to the hub                                       |  Integration test           | OnDisconnect()            |
-| Write Tests  |   Team 4   |   ✅    | Back-end SignalR protokol       | - Info - Sends new user to all users hub                                       |  Integration test           | UpdateUserLists()            |
-| Write Tests  |   Team 4   |   ✅    | Back-end SignalR protokol       | - Info - Sends error to user hub                                       |  Integration test           | SendError()            |
+| Write Tests  |   Team 4   |   ✅    | Back-end SignalR protokol       | - Info - Sends new user to all users hub                                                |  Integration test           | UpdateUserLists()         |
+| Write Tests  |   Team 4   |   ✅    | Back-end SignalR protokol       | - Info - Sends error to user hub                                                        |  Integration test           | SendError()               |
 
 
 
@@ -117,10 +117,10 @@ The multi-step plan is as follows:
 
 | Step | Server                                   | Client          |  Main changes                                                                                |  Progress    |  Test-definitions in place |
 |:----:|------------------------------------------|:---------------:|----------------------------------------------------------------------------------------------|:------------:|:--------------------------:|
-| 0.5  | Minimal Viable Product in MVC + SignalR  | cshtml View     | Demonstrate a working example of the SignalR protocol in chat-context                        | ✅          |             ✅             |
-| 1    | ASP.Net Core API                         | Angular         | Get a MVP up and running for group discussion and decision making                            | 🟡          |             🟡             |
-| 2    | Entity Framework, T-SQL                  | Angular         | Enable database support, to save messages, etc. And see if we can make multiple chat rooms   | 🔵          |             🔴             |
-| 3    | Direct Message                           | Angular         | Enable 1-1 confidential chats. Ensure nothing is logged or output to server console          | 🔵          |             🔴             |
+| 0.5  | Minimal Viable Product in MVC + SignalR  | cshtml View     | Demonstrate a working example of the SignalR protocol in chat-context                        | ✅           |             ✅            |
+| 1    | ASP.Net Core API                         | Angular         | Get a MVP up and running for group discussion and decision making                            | 🟡           |             🟡            |
+| 2    | Entity Framework, T-SQL                  | Angular         | Enable database support, to save messages, etc. And see if we can make multiple chat rooms   | 🔵           |             🔴            |
+| 3    | Direct Message                           | Angular         | Enable 1-1 confidential chats. Ensure nothing is logged or output to server console          | 🔵           |             🔴            |
 
 
 
