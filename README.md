@@ -105,6 +105,9 @@ Created as a part of Unit-Testing and Test-Driven Development excersises in clas
 | Write Tests  |   Team 4   |   ✅    | Back-end SignalR protokol       | - Info gets a list of users connected to the hub                                        |  Integration test           | RequestUserList()         |
 | Write Tests  |   Team 4   |   ✅    | Back-end SignalR protokol       | - Get a username via header                                                             |  Integration test           | OnConnection()            |
 | Write Tests  |   Team 4   |   ✅    | Back-end SignalR protokol       | - Info - Get a list of users connected to the hub                                       |  Integration test           | OnDisconnect()            |
+| Write Tests  |   Team 4   |   ✅    | Back-end SignalR protokol       | - Info - Sends new user to all users hub                                       |  Integration test           | UpdateUserLists()            |
+| Write Tests  |   Team 4   |   ✅    | Back-end SignalR protokol       | - Info - Sends error to user hub                                       |  Integration test           | SendError()            |
+
 
 
 
