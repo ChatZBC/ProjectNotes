@@ -1,0 +1,14 @@
+Forudsætninger: Har lavet chat på tidligere forløb og har tidligere programmeringsmæssigt arbejdet med at indtaste en (eller flere) modtagere, indtaste en tekst til modtageren, trykke send, etablere en metode til at bringe meddelelsen til modtagerne, vise meddelelsen til modtageren og gøre det muligt at besvare meddelelsen. Opgaven kan udvides hvis den færdiggøres i sin grundessens beskrevet herover. Eksempelvis kan man tilføre hash-tags, som så skal søges ud i teksten som skrives af afsenderen og kan også anvendes af læsere til at søge tekster fra andre med de angivne hash-tags. Det forudsættes bekendt at diskutere og enes om en metode i klassen til at formidle meddelelser, enten peer-to-peer ("klient til klient") eller client-server (der er også andre fremgangsmåder) .
+
+Opgaven: At bygge enten et chat-system som klassen hurtigt bliver enige om, i den simplest mulige forekomst som kan lave multi-chat (dvs. med 3 eller flere noder / brugere / klienter), med fokus på anvendelse af TDD metodikken.
+
+TDD metoden forudsætter at man bygger sine tests først. Dette synes barokt først, da koden jo vil starte med at fejle hele vejen igennem. Men tænk på TDD som en metode der sikrer at mens man er i kampens hede og arbejder med 117 forskellige fremgangsmåder, da husker metoden at teste alle forudsætningerne. 
+
+Dette betyder at når man nu "gearer lidt op" - og begynder at være nogle stykker som udvikler i fællesskab, da kan det rigtig blive noget rod hvis man glemmer vigtige forudsætninger under forskellige fordybninger undervejs. TDD er et aspekt af Agil udvikling, og øvelsen her er fokuseret på at få TDD metoden ind under huden, at forstå den som metode, og at få den afprøvet i praksis. Det er væsentligt at forholde sig praktisk til denne opgave, fremadrettet, løsningsorienteret. 
+
+Det er derfor mere væsentligt at simplificere opgaven med chat og gennemføre flere af TDD disciplin-skridtene end omvendt.
+
+Det er derfor primært mål at få defineret hele chat-programmet (så simpelt som overhovedet muligt indenfor en funktion der giver mulighed for multi chat), og at enes om de features det skal have, og så definere hvilke funktioner der skal være her, (som er affødt af features). I den givne opgave kan dette beskrives på ganske få funktioner - og så skal der så laves tests til disse funktioner (dvs. i sproget kaldes disse funktioner metoder). 
+
+Afslutningsvis er det så også opgaven at forskellige små-grupper i klassen, eventuelt enkelt-personer - kan arbejde selvstændigt på programmerings-opgaverne og opdage som det skrider frem, at flere og flere af testene giver OK.
+
